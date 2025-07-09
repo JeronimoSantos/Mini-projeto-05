@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨💻 Front-end Api TecSustentável - EcoTecnologia
 
-## Getting Started
+Nesse mini projeto o objetivo foi de criar uma parte visual de uma api consumido seu endpontes e mostrandos na tela de forma organizada e atraente para os usuarios.
 
-First, run the development server:
+## Problematização
+Apesar de te um enorme potencial, enfrenta diversos desafios para sua ampla adoção e desenvolvimento pleno. Alguns deles são a Falta de Conscientização e Educação, Falta de Compreensão do Potencial e Informalidade.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Solução Encontrada
+Pensando nessa situação, resolvi dessa vez melhorar minha api com o mesmo objetivo mas agora integrando uma parte visual consumindo minha api.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Exibindo os dados de forma mais amigavel e atraente para os usuarios, melhorando a visualização e entendimento dos dados que é o objetivo final.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Assim conseguindo divulgar mais sobre as vantagens e benefícios da utilização da tecnologia mais voltada na natureza, pensando tanto no curto prazo como para as próximas gerações.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tecnologias Utilizadas
+- React - versão(19.0.0)
+- Next.js - versão(15.3.5)
+- TailwindCSS - versão(4.1.11)
+- TypeScript - versão(5.8.3)
+- Git - versão(2.46.0)
+- Vercel - versão(44.2.13)
 
-## Learn More
+## Link da Api utilizada
 
-To learn more about Next.js, take a look at the following resources:
+Vou deixar o link da api que foi utilizada nesse mini projeto para quem quiser saber mais sobre a api e como que é a estrutura, endpoites e mais sobre.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Api TecSustentável](https://github.com/JeronimoSantos/Mini-Projeto-04)
