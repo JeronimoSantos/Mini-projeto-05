@@ -1,28 +1,24 @@
 //
-import Inovacoes from "@/components/Inovacoes/Inovacoes";
-import Startups from "@/components/Startups/Startups";
-import ComoAjudar from "@/components/ComoAjudar/ComoAjudar";
+import Navegacao from "@/components/Navegacao";
+import Link from "next/link";
 
 //
 export default function HomePage() {
   return (
-    <main style={{ padding: '2rem' }}>
-      <h1>Bem-vindo ao Mini Projeto Sustentável</h1>
-      
-      <section>
-        <h2>Inovações</h2>
-        <Inovacoes />
-      </section>
+    <>
+      <main className="min-h-screen bg-teal-500">
+          <header className="flex flex-row justify-between items-center p-6 ">
+            <Link href="/" target="_self" title="Página Principal"><h1 className="bg-gradient-to-r from-slate-600 via-slate-700 to-slate-800 text-transparent bg-clip-text">TecSustentável</h1></Link>
+            
+            <nav>
+              <Navegacao />
+            </nav>
+          </header>
 
-      <section>
-        <h2>Startups</h2>
-        <Startups />
-      </section>
+          <section>
 
-      <section>
-        <h2>Como Ajudar</h2>
-        <ComoAjudar />
-      </section>
-    </main>
+          </section>
+      </main>
+    </>
   );
 }
