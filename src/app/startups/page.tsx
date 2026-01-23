@@ -4,8 +4,7 @@
 //
 import { useEffect, useState } from "react";
 import StartupsCard, { StartupsCardProps } from "@/app/startups/StartupsCard";
-import Navegacao from "@/components/Navegacao";
-import Link from "next/link";
+import Header from "@/components/Header";
 
 
 // 
@@ -35,14 +34,7 @@ export default function Startups() {
 // Renderizando a lista de startups
     return (
         <main>
-            <header className="flex flex-row justify-between items-center p-6 ">
-                <Link href="/" target="_self" title="Página Principal"><h1 className="bg-gradient-to-r from-slate-600 via-slate-700 to-slate-800 text-transparent bg-clip-text">TecSustentável</h1></Link>
-                
-                <nav>
-                    <Navegacao />
-                </nav>
-            </header>
-
+            <Header />
             <section>
                 <h1>Startups</h1>
                 {startups.map((startup, index) => (

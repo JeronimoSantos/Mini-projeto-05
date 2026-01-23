@@ -4,8 +4,7 @@
 //
 import { useEffect, useState } from "react";
 import InovacoesCard, { InovacoesCardProps } from "./InovacoesCard";
-import Navegacao from "@/components/Navegacao";
-import Link from "next/link";
+import Header from "@/components/Header";
 
 //
 export default function Inovacoes() {
@@ -33,14 +32,7 @@ export default function Inovacoes() {
 // Renderizando a lista de inovações
     return (
         <main className="min-h-screen bg-blue-900">
-            <header className="flex flex-row justify-between items-center p-6 ">
-                <Link href="/" target="_self" title="Página Principal"><h1 className="bg-gradient-to-r from-slate-600 via-slate-700 to-slate-800 text-transparent bg-clip-text">TecSustentável</h1></Link>
-                
-                <nav>
-                    <Navegacao />
-                </nav>
-            </header>
-
+            <Header />
             <section className="">
                 {inovacoes.map((inovacao, index) => (
                     <InovacoesCard key={index} {...inovacao}/>

@@ -1,11 +1,10 @@
 //
 'use client';
 
-//
+// Caminhos de Importações 
 import { useEffect, useState } from "react";
 import ComoAjudarCard, { ComoAjudarCardProps } from "./ComoAjudarCard";
-import Navegacao from "@/components/Navegacao";
-import Link from "next/link";
+import Header from "@/components/Header";
 
 //
 export default function ComoAjudar() {
@@ -33,14 +32,7 @@ export default function ComoAjudar() {
 // Renderizando a lista de ações de como ajudar
     return (
         <main>
-            <header className="flex flex-row justify-between items-center p-6 ">
-                <Link href="/" target="_self" title="Página Principal"><h1 className="bg-gradient-to-r from-slate-600 via-slate-700 to-slate-800 text-transparent bg-clip-text">TecSustentável</h1></Link>
-                
-                <nav>
-                    <Navegacao />
-                </nav>
-            </header>
-
+            <Header />
             <section>
                 {comoajudar.map((acao, index) => (
                     <ComoAjudarCard key={index} {...acao}/>
