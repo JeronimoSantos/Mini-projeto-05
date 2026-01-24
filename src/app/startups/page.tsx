@@ -33,10 +33,10 @@ export default function Startups() {
     
 // Renderizando a lista de startups
     return (
-        <main>
+        <main className="min-h-screen bg-blue-600">
             <Header />
-            <section>
-                <h1>Startups</h1>
+            <h1 className="text-4xl text-center font-sans text-gray-800 p-5">Startups</h1>
+            <section className="flex flex-wrap gap-5 ">
                 {startups.map((startup, index) => (
                     <StartupsCard key={index} {...startup} />
                 ))}

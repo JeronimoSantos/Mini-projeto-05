@@ -33,3 +33,6 @@ Para utlizar essa aplicação com o funcionanmento esperado é necessario baixar
 Vou deixar o link da api que foi utilizada nesse mini projeto para quem quiser saber mais sobre a api e como que é a estrutura, endpoites e mais sobre.
 
 - [Api TecSustentável](https://github.com/JeronimoSantos/Mini-Projeto-04)
+
+## 📸 Imagens do Projeto - EcoTecnologia
+
