@@ -1,5 +1,7 @@
+// Componente da Navegação para todos as paginas
 import Link from "next/link";
 
+// Estilos da Navegação para as paginas
 export default function Nevagation() {
     return (
         <nav className="">

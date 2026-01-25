@@ -2,7 +2,7 @@
 import Header from "@/components/Header";
 import Link from "next/link";
 
-// Função principal da Pagina HomePage
+// Função principal da Pagina HomePage com os Estilos
 export default function HomePage() {
   return (
     <>

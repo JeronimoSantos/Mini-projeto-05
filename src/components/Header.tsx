@@ -1,6 +1,8 @@
+// Componente do Header para todos as paginas
 import Link from "next/link";
 import Navegacao from "@/components/Navegacao";
 
+// Estilos do Header para as paginas
 export default function Header() {
     return (
         <header className="flex flex-row justify-between items-center p-6 border-b border-b-emerald-900 mb-20 bg-blue-400 shadow-xl">
