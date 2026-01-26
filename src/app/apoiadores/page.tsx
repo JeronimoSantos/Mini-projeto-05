@@ -29,9 +29,9 @@ export default function ComoAjudar() {
         fetchComoAjudar();
     }, []);
 
-// Renderizando a lista de ações de como ajudar
+// Renderizando a lista de ações de como ajudar na sessão Apoiadores
     return (
-        <main>
+        <main className="min-h-screen bg-gray-600"> 
             <Header />
             <section>
                 {comoajudar.map((acao, index) => (
@@ -40,4 +40,4 @@ export default function ComoAjudar() {
             </section>
         </main>
     );
-}
+};
